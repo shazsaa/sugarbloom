@@ -1,0 +1,73 @@
+.custom-bg {
+    background-image: url("./background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 100vh;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.form-label,
+.form-check-label,
+.form-control {
+    font-size: 0.8rem;
+}
+
+.form-div {
+    width: 100%;
+}
+
+.back-btn {
+    width: 35%;
+}
+
+.vertical-line {
+    display: inline-block;
+    width: 1px;
+    height: 25px;
+    background-color: #1e1e1e;
+    margin: 0 10px;
+}
+
+.navbar-logo {
+    letter-spacing: 0.15em;
+}
+
+@media (min-width: 549px) {
+    .form-div {
+        width: 80%;
+    }
+
+    .submit-btn {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) {
+    .form-label,
+    .form-check-label,
+    .form-control {
+        font-size: 1rem;
+    }
+
+    .back-btn {
+        width: 40%;
+    }
+
+    .submit-btn {
+        width: 50%;
+    }
+}
+
+@media (min-width: 991px) {
+    .form-div {
+        width: 45%;
+    }
+
+    .submit-btn {
+        width: 30%;
+    }
+}

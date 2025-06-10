@@ -1,0 +1,73 @@
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #343a40;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar.hidden {
+  transform: translateX(-250px);
+}
+
+.sidebar .brand-link {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid #495057;
+  background-color: transparent;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 0;
+}
+
+.sidebar ul li a {
+  padding: 10px 15px;
+  display: block;
+  color: #c2c7d0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+.sidebar ul li a .nav-icon {
+  margin-right: 10px;
+}
+
+.navbar {
+  margin-left: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-wrapper {
+  margin-left: 250px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.collapsed-sidebar .navbar,
+.collapsed-sidebar .content-wrapper {
+  margin-left: 0;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.card .card-footer {
+  background-color: #e9ecef;
+}
